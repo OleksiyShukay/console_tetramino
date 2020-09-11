@@ -1,0 +1,97 @@
+﻿  Figure.cpp
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(13): error C2664: "void TetrisEngine::Figure::init(int,int,std::vector<bool,std::allocator<_Ty>>)": невозможно преобразовать аргумент 3 из "std::vector<bool,std::allocator<_Ty>> *" в "std::vector<bool,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=bool
+          ]
+  d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(15): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(19): error C2664: "void TetrisEngine::Figure::init(int,int,std::vector<bool,std::allocator<_Ty>>)": невозможно преобразовать аргумент 3 из "std::vector<bool,std::allocator<_Ty>> *" в "std::vector<bool,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=bool
+          ]
+  d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(21): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(24): error C2511: void TetrisEngine::Figure::init(int,int,std::vector<bool,std::allocator<_Ty>> *): перегруженная функция-член не найдена в "TetrisEngine::Figure"
+          with
+          [
+              _Ty=bool
+          ]
+  d:\junioc++\test\vs.1\teris\tetrisengine\figure.h(6): note:  см. объявление "TetrisEngine::Figure"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(25): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_width"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(26): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_height"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_width"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C3867: "TetrisEngine::Figure::m_width": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_height"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C3867: "TetrisEngine::Figure::m_height": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C2568: *: не удается разрешить перегрузку функции
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(32): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_coords"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(32): error C3867: "TetrisEngine::Figure::m_coords": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(32): error C2109: для индекса требуется массив или указатель
+  PositionFigure.cpp
+d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(19): error C2440: return: невозможно преобразовать "int" в "TetrisEngine::PositionFigure *"
+  d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(19): note: Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(23): error C2440: return: невозможно преобразовать "int" в "TetrisEngine::PositionFigure *"
+  d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(23): note: Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.cpp(5): error C2511: TetrisEngine::PositionFigure::PositionFigure(int,int,TetrisEngine::Figure *): перегруженная функция-член не найдена в "TetrisEngine::PositionFigure"
+  d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(7): note:  см. объявление "TetrisEngine::PositionFigure"
+d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.cpp(6): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::PositionFigure::m_x"
+d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.cpp(7): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::PositionFigure::m_y"
+d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.cpp(8): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::PositionFigure::m_figure"
+  BaseApp.cpp
+d:\junioc++\test\vs.1\teris\teris\baseapp.h(28): error C2062: тип "int" не требуется
+d:\junioc++\test\vs.1\teris\teris\baseapp.h(52): error C2059: синтаксическая ошибка: <L_GRAMMAR_end_class>
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(12): error C2511: BaseApp::BaseApp(int,int): перегруженная функция-член не найдена в "BaseApp"
+  d:\junioc++\test\vs.1\teris\teris\baseapp.h(10): note:  см. объявление "BaseApp"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(12): error C2550: BaseApp::{ctor}: список инициализации конструктора должен использоваться только в месте определения конструктора
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(13): error C2597: недопустимая ссылка на нестатический член "BaseApp::X_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(13): error C2597: недопустимая ссылка на нестатический член "BaseApp::Y_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(13): error C2440: инициализация: невозможно преобразовать "unknown" в "SHORT"
+  d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(13): note: Не существует контекста, в котором такое преобразование возможно
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(14): error C2597: недопустимая ссылка на нестатический член "BaseApp::X_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(14): error C2597: недопустимая ссылка на нестатический член "BaseApp::Y_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(14): error C2440: инициализация: невозможно преобразовать "unknown" в "SHORT"
+  d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(14): note: Не существует контекста, в котором такое преобразование возможно
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(16): error C2597: недопустимая ссылка на нестатический член "BaseApp::mConsole"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(17): error C2597: недопустимая ссылка на нестатический член "BaseApp::mConsoleIn"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(19): error C2597: недопустимая ссылка на нестатический член "BaseApp::mConsole"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(23): error C2597: недопустимая ссылка на нестатический член "BaseApp::mConsole"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(28): error C2597: недопустимая ссылка на нестатический член "BaseApp::mConsole"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(32): error C2597: недопустимая ссылка на нестатический член "BaseApp::X_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(32): error C3867: "BaseApp::X_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(32): error C2597: недопустимая ссылка на нестатический член "BaseApp::Y_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(32): error C3867: "BaseApp::Y_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(32): error C2597: недопустимая ссылка на нестатический член "BaseApp::mChiBuffer"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(34): error C2597: недопустимая ссылка на нестатический член "BaseApp::X_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(34): error C3867: "BaseApp::X_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(35): error C2597: недопустимая ссылка на нестатический член "BaseApp::Y_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(35): error C3867: "BaseApp::Y_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(39): error C2597: недопустимая ссылка на нестатический член "BaseApp::X_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(39): error C3867: "BaseApp::X_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(40): error C2597: недопустимая ссылка на нестатический член "BaseApp::Y_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(40): error C3867: "BaseApp::Y_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(42): error C2597: недопустимая ссылка на нестатический член "BaseApp::X_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(42): error C3867: "BaseApp::X_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(43): error C2597: недопустимая ссылка на нестатический член "BaseApp::Y_SIZE"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(43): error C3867: "BaseApp::Y_SIZE": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(44): error C2137: пустая символьная константа
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(44): error C2352: BaseApp::SetChar: недопустимый вызов нестатической функции-члена
+  d:\junioc++\test\vs.1\teris\teris\baseapp.h(35): note:  см. объявление "BaseApp::SetChar"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(64): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "printf"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(63): warning C4552: "!": результат выражения не используется
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(64): error C2429: для функция языка "Инструкции INIT в if/switch" нужен флаг компилятора "/std:c++17"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(64): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(64): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(75): error C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(459): note:  см. объявление "kbhit"
+d:\junioc++\test\vs.1\teris\teris\baseapp.cpp(76): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note:  см. объявление "getch"
+  main.cpp
+d:\junioc++\test\vs.1\teris\teris\baseapp.h(28): error C2062: тип "int" не требуется
+d:\junioc++\test\vs.1\teris\teris\baseapp.h(52): error C2059: синтаксическая ошибка: <L_GRAMMAR_end_class>
+d:\junioc++\test\vs.1\teris\teris\main.cpp(2): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  TestApp.cpp
+d:\junioc++\test\vs.1\teris\teris\baseapp.h(28): error C2062: тип "int" не требуется
+d:\junioc++\test\vs.1\teris\teris\baseapp.h(52): error C2059: синтаксическая ошибка: <L_GRAMMAR_end_class>
+d:\junioc++\test\vs.1\teris\teris\testapp.cpp(2): error C2661: BaseApp::BaseApp: нет перегруженной функции, принимающей 2 аргументов
+d:\junioc++\test\vs.1\teris\teris\testapp.cpp(40): error C2137: пустая символьная константа
+  Создание кода...
