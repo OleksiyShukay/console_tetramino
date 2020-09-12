@@ -1,7 +1,32 @@
 ﻿  Figure.cpp
-d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(99): error C3861: min: идентификатор не найден
-d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(100): error C3861: min: идентификатор не найден
-d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(102): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(13): error C2664: "void TetrisEngine::Figure::init(int,int,std::vector<bool,std::allocator<_Ty>>)": невозможно преобразовать аргумент 3 из "std::vector<bool,std::allocator<_Ty>> *" в "std::vector<bool,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=bool
+          ]
+  d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(15): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(19): error C2664: "void TetrisEngine::Figure::init(int,int,std::vector<bool,std::allocator<_Ty>>)": невозможно преобразовать аргумент 3 из "std::vector<bool,std::allocator<_Ty>> *" в "std::vector<bool,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=bool
+          ]
+  d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(21): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(24): error C2511: void TetrisEngine::Figure::init(int,int,std::vector<bool,std::allocator<_Ty>> *): перегруженная функция-член не найдена в "TetrisEngine::Figure"
+          with
+          [
+              _Ty=bool
+          ]
+  d:\junioc++\test\vs.1\teris\tetrisengine\figure.h(6): note:  см. объявление "TetrisEngine::Figure"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(25): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_width"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(26): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_height"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_width"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C3867: "TetrisEngine::Figure::m_width": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_height"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C3867: "TetrisEngine::Figure::m_height": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(27): error C2568: *: не удается разрешить перегрузку функции
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(32): error C2597: недопустимая ссылка на нестатический член "TetrisEngine::Figure::m_coords"
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(32): error C3867: "TetrisEngine::Figure::m_coords": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+d:\junioc++\test\vs.1\teris\tetrisengine\figure.cpp(32): error C2109: для индекса требуется массив или указатель
   PositionFigure.cpp
 d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(19): error C2440: return: невозможно преобразовать "int" в "TetrisEngine::PositionFigure *"
   d:\junioc++\test\vs.1\teris\tetrisengine\positionfigure.h(19): note: Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
