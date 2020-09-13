@@ -25,7 +25,7 @@ public:
   const int Y_SIZE;
 
   //јргументы €вл€ютс€ размеры области ввода по горизонтале и  вертикали в символах
-  BaseApp(int xSize = 100, int ySize = 80);
+  BaseApp(int xSize = 100; int ySize = 80);
   virtual ~BaseApp();
 
   //запускаем игровой цикл
