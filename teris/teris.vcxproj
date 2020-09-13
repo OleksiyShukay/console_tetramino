@@ -128,14 +128,12 @@
     <ClCompile Include="BaseApp.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TestApp.cpp" />
-    <ClCompile Include="TetriApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TetrisEngine\Figure.h" />
     <ClInclude Include="..\TetrisEngine\PositionFigure.h" />
     <ClInclude Include="BaseApp.h" />
     <ClInclude Include="TestApp.h" />
-    <ClInclude Include="TetrisApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
