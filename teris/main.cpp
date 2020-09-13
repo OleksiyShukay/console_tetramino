@@ -1,5 +1,5 @@
-#include "TestApp.h"
+#include "TetrisApp.h"
 void main() {
-	TestApp app;
+	TetrisApp app;
 	app.Run();
 }
