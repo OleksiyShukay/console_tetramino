@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\TetrisEngine\Field.cpp" />
     <ClCompile Include="..\TetrisEngine\Figure.cpp" />
     <ClCompile Include="..\TetrisEngine\PositionFigure.cpp" />
     <ClCompile Include="BaseApp.cpp" />
@@ -131,6 +132,7 @@
     <ClCompile Include="TetriApp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\TetrisEngine\Field.h" />
     <ClInclude Include="..\TetrisEngine\Figure.h" />
     <ClInclude Include="..\TetrisEngine\PositionFigure.h" />
     <ClInclude Include="BaseApp.h" />
