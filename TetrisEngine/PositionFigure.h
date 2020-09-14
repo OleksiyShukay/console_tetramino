@@ -10,21 +10,17 @@ namespace TetrisEngine {
 	int m_x; //
 	int m_y;  
   public:
-    PositionFigure(int, int, Figure*);
-	int getX() { 
-	  return m_x; 
-	}
-	int getY() { 
-	  return m_y; 
-	}
-	Figure *getFigure() { 
-	  return m_figure; 
-	}
+    PositionFigure(int, int, Figure);
+	int getX() { return m_x; }
+	int getY() { return m_y; }
+	Figure *getFigure() { return m_figure; }
 	PositionFigure *setX(int x) {
 	  m_x = x;
+	  return m_x;
 	}
 	PositionFigure *setY(int y) {
 	  m_y = y;
+	  return m_y;
 	}
 
 
